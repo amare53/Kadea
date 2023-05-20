@@ -1,0 +1,24 @@
+{
+  "name": "Kadea",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "email": "aime@kadea.co",
+    "name": "Aime Nzolo"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "test": "mocha -w",
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
